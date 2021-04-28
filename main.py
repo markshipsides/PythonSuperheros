@@ -1,16 +1,9 @@
-# This is a sample Python script.
+# MarkS - Python Challenge Day 08Main - Re-usability
+from pythonsup import *
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+minimum_rating = int(input("Please Enter Minimum rating value: "))
+print(meet_ratings(BASIC_SUPERPOWERS, minimum_rating))
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+chosen_currency = input("Please Select a currency: ")
+currency_amount = int(input("Please choose an amount to spend: "))
+print(amount_spent(MY_WALLET, chosen_currency, currency_amount))
