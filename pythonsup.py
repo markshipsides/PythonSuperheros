@@ -1,4 +1,4 @@
-# MarkS - Python Challenge Day 08Mod - Re-usability
+# MarkS - Python Challenge Day 08ModENV - Re-usability
 from typing import List
 
 BASIC_SUPERPOWERS: dict = {"Flight": 51, "Speed": 90, "Strength": 50, "Sight": 30}
